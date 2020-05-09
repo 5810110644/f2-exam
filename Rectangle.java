@@ -1,4 +1,4 @@
-public class Rectangle extends Shape {	//concrete class
+public class Rectangle extends Shape2D {	//concrete class
 	private double width;
 	private double height;
 

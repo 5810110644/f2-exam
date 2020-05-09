@@ -1,4 +1,4 @@
-public class Circle extends Shape {	//concrete class
+public class Circle extends Shape2D {	//concrete class
 	private double radius;
 
 	public Circle(String name, double radius){
