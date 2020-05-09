@@ -35,5 +35,11 @@ public class Cylinder extends Shape3D {
 	public void zoom(double factor){
         radius = radius * factor;
         height = height * factor;
+    }
+    
+    public static void main(String[] args){
+		Cylinder c = new Cylinder("C1", 7, 2);
+        System.out.println("Area of " +  c.getName() + " is " + c.getArea());
+        System.out.println("Volume of "+ c.getName() + " is " + c.getVolume());
 	}
 }

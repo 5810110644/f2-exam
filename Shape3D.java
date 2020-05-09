@@ -4,5 +4,6 @@ public abstract class Shape3D extends Sprite implements Zoomable{
 		super(name);
 	}
 
-	public abstract double getArea();
+    public abstract double getArea();
+    public abstract double getVolume();
 }

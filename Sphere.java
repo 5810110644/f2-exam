@@ -24,5 +24,11 @@ public class Sphere extends Shape3D {
 
 	public void zoom(double factor){
 		radius = radius * factor;
+    }
+    
+    public static void main(String[] args){
+		Sphere c = new Sphere("C1", 2);
+        System.out.println("Area of " +  c.getName() + " is " + c.getArea());
+        System.out.println("Volume of " + c.getName() + " is " + c.getVolume());
 	}
 }
